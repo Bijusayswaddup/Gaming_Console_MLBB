@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLBB Heroes Showcase</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/loading.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-logo">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 15 L75 40 L65 50 L50 35 L35 50 L25 40 Z" fill="#FF5722"/>
+                <circle cx="50" cy="70" r="10" fill="#2196F3"/>
+            </svg>
+        </div>
+        <h2>MLBB HEROES SHOWCASE</h2>
+        <div class="progress-bar">
+            <div class="progress" id="loading-progress"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <svg viewBox="0 0 24 24" width="30" height="30" fill="#FF5722">
+                <path d="M12 2 L2 7 L2 17 L12 22 L22 17 L22 7 Z" />
+            </svg>
+            <h1>MLBB HEROES</h1>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="active" data-section="home">HOME</a>
+            <a href="heroes/index.html">HEROES</a>
+            <a href="#contact" data-section="contact">CONTACT</a>
+            <a href="#about" data-section="about">ABOUT</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="hero-text">
+                <h2>EXPERIENCE THE LEGENDS</h2>
+                <p>Welcome to the ultimate Mobile Legends: Bang Bang heroes showcase. Explore your favorite heroes, learn about their abilities, and discover new strategies to dominate the Land of Dawn. Whether you're a seasoned player or new to the game, this is your gateway to mastering every hero.</p>
+                <div class="cta-buttons">
+                    <a href="heroes/index.html" class="btn btn-primary">EXPLORE HEROES</a>
+                    <a href="#about" class="btn btn-secondary">LEARN MORE</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>CONTACT US</h2>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>HEADQUARTERS</h4>
+                                <p>123 Gaming Street, Esports City</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>EMAIL US</h4>
+                                <p>support@mlbb-showcase.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>CALL US</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h2>SEND A MESSAGE</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="about-content">
+                <h2>ABOUT MLBB HEROES SHOWCASE</h2>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fas fa-crosshairs"></i>
+                        </div>
+                        <h3>OUR MISSION</h3>
+                        <p>To provide the most comprehensive and interactive showcase of Mobile Legends heroes, helping players master each character and dominate the battlefield.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>OUR COMMUNITY</h3>
+                        <p>Join thousands of MLBB enthusiasts who share strategies, hero guides, and gameplay tips to elevate everyone's gaming experience.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <h3>ALWAYS UPDATED</h3>
+                        <p>We constantly update our database with new heroes, balance changes, and meta shifts to keep you ahead of the competition.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-discord"></i></a>
+        </div>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">FAQ</a>
+            <a href="#">Support</a>
+        </div>
+        <p class="copyright">© 2023 MLBB Heroes Showcase. This is a fan project and not affiliated with Moonton.</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

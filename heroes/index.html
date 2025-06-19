@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLBB Heroes Console</title>
+    <link rel="stylesheet" href="../styles/loading.css">
+    <link rel="stylesheet" href="styles/heroes.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-logo">
+            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <path d="M50 15 L75 40 L65 50 L50 35 L35 50 L25 40 Z" fill="#FF5722" />
+                <circle cx="50" cy="70" r="10" fill="#2196F3" />
+            </svg>
+        </div>
+        <h2>LOADING HEROES CONSOLE</h2>
+        <div class="progress-bar">
+            <div class="progress" id="loading-progress"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <svg viewBox="0 0 24 24" width="30" height="30" fill="#FF5722">
+                <path d="M12 2 L2 7 L2 17 L12 22 L22 17 L22 7 Z" />
+            </svg>
+            <h1>MLBB HEROES</h1>
+        </div>
+        <div class="nav-links">
+            <a href="../index.html">HOME</a>
+            <a href="#" class="active">HEROES</a>
+            <a href="../index.html#contact">CONTACT</a>
+            <a href="../index.html#about">ABOUT</a>
+        </div>
+    </nav>
+
+    <!-- Heroes Console -->
+    <div id="heroes-console">
+        <div class="console-header">
+            <div class="console-title">
+                <i class="fas fa-gamepad"></i>
+                <h3>HEROES CONSOLE</h3>
+            </div>
+            <div class="console-search">
+                <input type="text" id="hero-search" placeholder="Search heroes...">
+            </div>
+        </div>
+        <div class="console-content">
+            <div class="heroes-grid" id="heroes-grid">
+                <!-- Heroes will be loaded from JSON -->
+            </div>
+            <div class="preview-pane">
+                <div class="preview-header">
+                    <h3>HERO PREVIEW</h3>
+                    <p>Select a hero to view details</p>
+                </div>
+                <div class="hero-preview" id="hero-preview">
+                    <div class="default-preview">
+                        <i class="fas fa-user-circle" style="font-size: 8rem; opacity: 0.2; margin-bottom: 20px;"></i>
+                        <p>Select a hero to see details</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/heroes.js"></script>
+</body>
+
+</html>

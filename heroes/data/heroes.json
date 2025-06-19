@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Layla",
+        "role": "Marksman",
+        "image": "img/layla.jpg",
+        "preview": "preview/layla.jpg",
+        "roleIcon": "icon/marksman.png",
+        "description": "Layla is a long-range marksman hero who excels at dealing massive damage from a distance. Her ultimate ability, Destruction Rush, can eliminate low-health enemies with ease."
+    },
+    {
+        "id": 2,
+        "name": "Gatotkaca",
+        "role": "Tank",
+        "image": "img/gatotkaca.jpg",
+        "preview": "preview/gatotkaca.jpg",
+        "roleIcon": "icon/tank.png",
+        "description": "Gatotkaca is a durable tank hero known for his crowd control abilities and protective skills. His ultimate, Unbreakable, allows him to leap into battle and protect allies."
+    },
+    {
+        "id": 3,
+        "name": "Gusion",
+        "role": "Assassin",
+        "image": "img/gusion.jpg",
+        "preview": "preview/gusion.jpg",
+        "roleIcon": "icon/assassin.png",
+        "description": "Gusion is a highly mobile assassin with complex combo mechanics. His ability to dash multiple times makes him deadly for eliminating squishy targets."
+    },
+    {
+        "id": 4,
+        "name": "Angela",
+        "role": "Support",
+        "image": "img/angela.jpg",
+        "preview": "preview/angela.jpg",
+        "roleIcon": "icon/support.png",
+        "description": "Angela is a support hero who can attach to allies to provide healing and shields. Her ultimate, Heartguard, allows her to teleport to any ally on the map."
+    },
+    {
+        "id": 5,
+        "name": "Chou",
+        "role": "Fighter",
+        "image": "img/chou.jpg",
+        "preview": "preview/chou.jpg",
+        "roleIcon": "icon/fighter.png",
+        "description": "Chou is a versatile fighter with exceptional crowd control capabilities. His Shunpo ability allows him to dash through enemies and deliver powerful kicks."
+    },
+    {
+        "id": 6,
+        "name": "Lunox",
+        "role": "Mage",
+        "image": "img/lunox.jpg",
+        "preview": "preview/lunox.jpg",
+        "roleIcon": "icon/mage.png",
+        "description": "Lunox is a powerful mage who can switch between light and dark forms. Her ultimate, Chaos Assault, unleashes devastating area damage to multiple enemies."
+    },
+    {
+        "id": 7,
+        "name": "Fanny",
+        "role": "Assassin",
+        "image": "img/fanny.jpg",
+        "preview": "preview/fanny.jpg",
+        "roleIcon": "icon/assassin.png",
+        "description": "Fanny is a highly mobile assassin who uses cables to traverse the battlefield. Her Tornado Strike ability allows her to deal massive damage to enemies in her path."
+    },
+    {
+        "id": 8,
+        "name": "Johnson",
+        "role": "Tank",
+        "image": "img/johnson.jpg",
+        "preview": "preview/johnson.jpg",
+        "roleIcon": "icon/tank.png",
+        "description": "Johnson is a transforming tank hero who can turn into a car to transport allies. His ultimate, Rapid Touchdown, allows him to charge across the map at high speed."
+    },
+    {
+        "id": 9,
+        "name": "Kagura",
+        "role": "Mage",
+        "image": "img/kagura.jpg",
+        "preview": "preview/kagura.jpg",
+        "roleIcon": "icon/mage.png",
+        "description": "Kagura is a mage who manipulates her umbrella to control the battlefield. Her Yin Yang Overturn ability creates a powerful area of effect that damages and stuns enemies."
+    },
+    {
+        "id": 10,
+        "name": "Aldous",
+        "role": "Fighter",
+        "image": "img/aldous.jpg",
+        "preview": "preview/aldous.jpg",
+        "roleIcon": "icon/fighter.png",
+        "description": "Aldous is a fighter who gains power as he collects souls. His ultimate, Contract: Chase Fate, allows him to lock onto any enemy hero anywhere on the map."
+    }
+]

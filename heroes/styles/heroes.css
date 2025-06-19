@@ -1,0 +1,203 @@
+/* Heroes Console Section */
+#heroes-console {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    background: rgba(18, 28, 41, 0.7);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    margin: 30px auto;
+    max-width: 1400px;
+}
+
+.console-header {
+    background: var(--darker);
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--primary);
+}
+
+.console-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.console-title i {
+    color: var(--primary);
+    font-size: 1.5rem;
+}
+
+.console-search input {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    width: 250px;
+    font-size: 1rem;
+}
+
+.console-search input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.console-content {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.heroes-grid {
+    width: 70%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+    overflow-y: auto;
+}
+
+.hero-card {
+    width: 170px;
+    background: var(--gray);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    aspect-ratio: 1; /* Make cards square */
+}
+
+.hero-card:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 8px 15px rgba(255, 87, 34, 0.4);
+    z-index: 10;
+}
+
+.hero-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.hero-card:hover img {
+    transform: scale(1.1);
+}
+
+.hero-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 8px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.hero-card:hover .hero-name {
+    background: rgba(255, 87, 34, 0.8);
+}
+
+.preview-pane {
+    width: 30%;
+    background: linear-gradient(to bottom, #1a2838, #0e1724);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid var(--primary);
+}
+
+.preview-header {
+    text-align: center;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.hero-preview {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-preview img {
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border: 2px solid var(--primary);
+}
+
+.hero-info {
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+.hero-info h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: var(--primary);
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-role {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: rgba(33, 150, 243, 0.2);
+    color: var(--secondary);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.hero-role img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.hero-desc {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    opacity: 0.9;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .console-content {
+        flex-direction: column;
+    }
+    .heroes-grid, .preview-pane {
+        width: 100%;
+    }
+    .preview-pane {
+        height: 40vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .heroes-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+}
