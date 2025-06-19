@@ -88,5 +88,50 @@
         "preview": "preview/aldous.jpg",
         "roleIcon": "icon/fighter.png",
         "description": "Aldous is a fighter who gains power as he collects souls. His ultimate, Contract: Chase Fate, allows him to lock onto any enemy hero anywhere on the map."
+    },
+    {
+        "id": 11,
+        "name": "Hayabusa",
+        "role": "Assassin",
+        "image": "img/hayabusa.jpg",
+        "preview": "preview/hayabusa.jpg",
+        "roleIcon": "icon/assassin.png",
+        "description": "Hayabusa is a ninja assassin who excels at split pushing and 1v1 duels. His ultimate, Quad Shadow, allows him to dash between multiple enemies, dealing massive damage."
+    },
+    {
+        "id": 12,
+        "name": "Ling",
+        "role": "Assassin",
+        "image": "img/ling.jpg",
+        "preview": "preview/ling.jpg",
+        "roleIcon": "icon/assassin.png",
+        "description": "Ling is a agile assassin who can walk on walls. His ultimate, Tempest of Blades, creates a sword formation that damages and slows enemies within its area."
+    },
+    {
+        "id": 13,
+        "name": "Zilong",
+        "role": "Fighter",
+        "image": "img/zilong.jpg",
+        "preview": "preview/zilong.jpg",
+        "roleIcon": "icon/fighter.png",
+        "description": "Zilong is a fast-moving fighter who excels at chasing down enemies. His ultimate, Supreme Warrior, increases his movement and attack speed while removing all slows."
+    },
+    {
+        "id": 14,
+        "name": "Hanzo",
+        "role": "Assassin",
+        "image": "img/hanzo.jpg",
+        "preview": "preview/hanzo.jpg",
+        "roleIcon": "icon/assassin.png",
+        "description": "Hanzo is a unique assassin who can possess enemies from a distance. His ultimate, Kinjutsu: Pinnacle Ninja, allows him to control a demonic form while his real body remains hidden."
+    },
+    {
+        "id": 15,
+        "name": "Yu Zhong",
+        "role": "Fighter",
+        "image": "img/yuzhong.jpg",
+        "preview": "preview/yuzhong.jpg",
+        "roleIcon": "icon/fighter.png",
+        "description": "Yu Zhong is a powerful dragon warrior who can transform into a Black Dragon. His ultimate, Furious Dive, allows him to soar through the air and crash down on enemies."
     }
 ]
